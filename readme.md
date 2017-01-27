@@ -11,4 +11,4 @@ If you're interested in joining, the challenge is free and available here: [java
 #### 1. [Javascript Drum Kit](01-javascript-drum-kit)
 This was a fun little project. I hadn't done much of anything with the `<audio>` element yet and it was pretty cool seeing how easy it was to implement a basic drum machine like this. I added mouse functionality to the project before I realized that the original was keyboard input only. My solution is similar but differently implemented than the original. 
 
-Completion Time: ~1 Hour
+Completion Time: ~45 Minutes

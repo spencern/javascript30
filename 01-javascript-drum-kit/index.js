@@ -1,8 +1,3 @@
-//Add listeners to all relevant keypress
-//Add click event listener for all keys
-//Function that adds "playing" class
-//Function that plays correct sound.
-
 const validKeys = [65, 83, 68, 70, 71, 72, 74, 75, 76];
 
 const playSound = function (key) {
@@ -14,7 +9,6 @@ const playSound = function (key) {
 const animate = function (key) {
   const element = document.querySelector(`div[data-key='${key}']`);
   element.classList.add("playing");
-  setTimeout(() => {element.classList.remove("playing")}, 100);
 }
 
 const handleClick = function () {
@@ -30,6 +24,12 @@ const handleKeypress = function (event) {
   }
 }
 
+const handleTransitionEnd = function (event) {
+  if (event.propertyName === "transform") {
+    event.target.classList.remove("playing");
+  }
+}
+
 const init = () => {
   const keys = document.getElementsByClassName("key");
   
@@ -39,6 +39,7 @@ const init = () => {
     keys[i].addEventListener("click", handleClick, false);
   }
   document.addEventListener("keydown", handleKeypress, false);
+  document.addEventListener("transitionend", handleTransitionEnd);
 };
 
 window.onload = init;
