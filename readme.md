@@ -12,3 +12,12 @@ If you're interested in joining, the challenge is free and available here: [java
 This was a fun little project. I hadn't done much of anything with the `<audio>` element yet and it was pretty cool seeing how easy it was to implement a basic drum machine like this. I added mouse functionality to the project before I realized that the original was keyboard input only. My solution is similar but differently implemented than the original. 
 
 Completion Time: ~45 Minutes
+
+#### 2. [Javascript Clock](02-js-and-css-clock)
+Quick project. Hadn't ever built an analog clock in JS before, now I have.
+
+🕒 ✔ 
+
+Hadn't used `transform-origin` before, so that was nice to learn about. Will come in handy at some point I'm sure. CSS Transforms are super easy and seem pretty powerful. It's nice to be using them during this challenge as they will feel second nature by the end of the week I'm sure.
+
+Completion Time: ~30 Minutes
