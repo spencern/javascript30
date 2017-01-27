@@ -2,6 +2,22 @@
 
 # JavaScript30
 
+This is where I'm publishing my #javascript30 challenge solutions. My approach is to build each project on my own before watching the video and then learning better ways to do the things from the video. In some cases I'll extend the projects and I'll try to note that here.
+
+1. [Javascript Drum Kit](01-javascript-drum-kit)
+
+
+
+
+
+
+
+
+
+
+
+
+
 Starter Files + Completed solutions for the JavaScript 30 Day Challenge.
 
 Grab the course at [https://JavaScript30.com](https://JavaScript30.com)
