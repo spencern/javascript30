@@ -25,3 +25,10 @@ Completion Time: ~30 Minutes
 #### 3. [CSS Variables](03-css-variables)
 
 Nice intro to CSS variables. These will be super powerful once they are more widely adopted. Unfortunately they don't work in IE or Edge currently so we've got a bit more time until we can start using them in production. According to [http://caniuse.com/#feat=css-variables](http://caniuse.com/#feat=css-variables) they've had support in Chrome since 49 and Firefox since 31. Safari, Opera, iOS Safari, and Chrome for Android also are supported currently. MS Edge is working on it and I doubt we'll ever see it in IE 11.
+
+Completion Time: ~25 Minutes
+
+### 4. [Array Cardio Day 1](04-array-cardio-1)
+Quick refresher on Array prototype methods. If you've used ES6 Arrow functions and Array prototype map, reduce, filter, and sort then this will be a pretty quick lesson. This would be a great lesson for people new to ES6, javascript or beginner programmers with a few weeks of experience under their belt.
+
+Completion Time: ~10 Minutes
