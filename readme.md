@@ -21,3 +21,7 @@ Quick project. Hadn't ever built an analog clock in JS before, now I have.
 Hadn't used `transform-origin` before, so that was nice to learn about. Will come in handy at some point I'm sure. CSS Transforms are super easy and seem pretty powerful. It's nice to be using them during this challenge as they will feel second nature by the end of the week I'm sure.
 
 Completion Time: ~30 Minutes
+
+#### 3. [CSS Variables](03-css-variables)
+
+Nice intro to CSS variables. These will be super powerful once they are more widely adopted. Unfortunately they don't work in IE or Edge currently so we've got a bit more time until we can start using them in production. According to [http://caniuse.com/#feat=css-variables](http://caniuse.com/#feat=css-variables) they've had support in Chrome since 49 and Firefox since 31. Safari, Opera, iOS Safari, and Chrome for Android also are supported currently. MS Edge is working on it and I doubt we'll ever see it in IE 11.
