@@ -33,7 +33,7 @@ Quick refresher on Array prototype methods. If you've used ES6 Arrow functions a
 
 Completion Time: ~10 Minutes
 
-#### 5. [Flex Panel Gallery](04-flex-panel-gallery)
+#### 5. [Flex Panel Gallery](05-flex-panel-gallery)
 Great intro to CSS Flexbox. I learned a few new tricks, such as using a nested flexbox to center content vertically. Pretty cool. A caution about listening for `transitionend` and toggling a class when it has ended. If the transition is interrupted or reversed such as with a double click, you can end up with the `transitionend` listener firing on the wrong ending. I think it's better to explicitly add and remove classes in this case which gives more control in case a transition is interrupted.
 
 Completion Time: ~20 Minutes
