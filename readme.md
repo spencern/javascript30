@@ -28,7 +28,12 @@ Nice intro to CSS variables. These will be super powerful once they are more wid
 
 Completion Time: ~25 Minutes
 
-### 4. [Array Cardio Day 1](04-array-cardio-1)
+#### 4. [Array Cardio Day 1](04-array-cardio-1)
 Quick refresher on Array prototype methods. If you've used ES6 Arrow functions and Array prototype map, reduce, filter, and sort then this will be a pretty quick lesson. This would be a great lesson for people new to ES6, javascript or beginner programmers with a few weeks of experience under their belt.
 
 Completion Time: ~10 Minutes
+
+#### 5. [Flex Panel Gallery](04-flex-panel-gallery)
+Great intro to CSS Flexbox. I learned a few new tricks, such as using a nested flexbox to center content vertically. Pretty cool. A caution about listening for `transitionend` and toggling a class when it has ended. If the transition is interrupted or reversed such as with a double click, you can end up with the `transitionend` listener firing on the wrong ending. I think it's better to explicitly add and remove classes in this case which gives more control in case a transition is interrupted.
+
+Completion Time: ~20 Minutes
