@@ -37,3 +37,9 @@ Completion Time: ~10 Minutes
 Great intro to CSS Flexbox. I learned a few new tricks, such as using a nested flexbox to center content vertically. Pretty cool. A caution about listening for `transitionend` and toggling a class when it has ended. If the transition is interrupted or reversed such as with a double click, you can end up with the `transitionend` listener firing on the wrong ending. I think it's better to explicitly add and remove classes in this case which gives more control in case a transition is interrupted.
 
 Completion Time: ~20 Minutes
+
+
+#### 6. [Type Ahead](06-type-ahead)
+Nice refresher on a new ES6 feature `fetch`. Packs a bunch of JS into a short lesson - `fetch`, `Promises`, `map`, backticks, multi-line strings, and template literals / string interpolation, regular expressions - including building `RegExp` with variables. Really well put together.
+
+Completion Time: ~30 Minutes.
