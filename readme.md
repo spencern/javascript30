@@ -43,3 +43,6 @@ Completion Time: ~20 Minutes
 Nice refresher on a new ES6 feature `fetch`. Packs a bunch of JS into a short lesson - `fetch`, `Promises`, `map`, backticks, multi-line strings, and template literals / string interpolation, regular expressions - including building `RegExp` with variables. Really well put together.
 
 Completion Time: ~30 Minutes.
+
+#### 7. [Array Cardio Day 2](07-array-cardio-2)
+Really like this style of lesson. It feels like there could be a whole "cardio" spinoff series. Short and sweet with a lot of value. Looks at `some`, `every`, `find`, and `findIndex` array methods as well as the `...` "spread" operator and ES6 style ways to remove an element from an array. Probably mostly refresher if you've got any experience with either [`underscore`](http://underscorejs.org/) or [`lodash`](https://lodash.com/) - but always nice to see how to do the same thing in vanilla JS.
