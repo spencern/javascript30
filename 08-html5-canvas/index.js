@@ -36,7 +36,6 @@ function draw(e) {
   hue++;
   if (context.lineWidth >= maxLineWidth || context.lineWidth <= minLineWidth) {
     direction = !direction;
-    console.log(`Flipping to ${direction} - ${context.lineWidth}`);
   }
 
   if (direction) {

@@ -53,7 +53,14 @@ Completion Time: ~10 Minutes
 #### 8. [HTML 5 Canvas Painter](08-html5-canvas)
 Interesting primer on how the HTML5 Canvas works and a good intro to the building blocks of Canvas and it's Context. Quick tutorial where you get to build "Paint" style features and a good jumping off point for building more complicated painting tools based HTML5 Canvas.
 
-Completion Time: ~30 Minutes
+Completion Time: ~20 Minutes
 
 #### 9. [Dev Tools Domination](09-dev-tools-domination)
 Some nice tips for using chrome dev tools better. Using `Break On` in Chrome to break any time an attribute or subtree is modified or a node is removed is super useful and I have probably glossed over that feature a thousand times without experimenting. The rest of this lesson is on different `console` functions. Most of these I knew about (`console.table()`, `console.warn()`, `console.time()`, `console.log()`, etc) but `console.group()` and `console.dir()` were both new to me and I can see them being useful.
+
+Completion Time: ~10 Minutes
+
+#### 10. [Hold Shift to Check Multiple Checkboxes](10-hold-shift-and-check-checkboxes)
+Really enjoyed this as it wasn't something I'd done before but has a really simple concept. The challenge is: given a list of checkboxes, checking one checkbox and then holding shift and selecting another checkbox should also select all checkboxes in between. I ended up using a depth first search to find all of the checkboxes between the checked and previously checked checkboxes and then checking them if shift was being held. The way Wes did it was definitely way simpler.
+
+Completion Time: ~ 30 Minutes
