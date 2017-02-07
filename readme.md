@@ -47,6 +47,13 @@ Completion Time: ~30 Minutes.
 #### 7. [Array Cardio Day 2](07-array-cardio-2)
 Really like this style of lesson. It feels like there could be a whole "cardio" spinoff series. Short and sweet with a lot of value. Looks at `some`, `every`, `find`, and `findIndex` array methods as well as the `...` "spread" operator and ES6 style ways to remove an element from an array. Probably mostly refresher if you've got any experience with either [`underscore`](http://underscorejs.org/) or [`lodash`](https://lodash.com/) - but always nice to see how to do the same thing in vanilla JS.
 
+Completion Time: ~10 Minutes
+
 
 #### 8. [HTML 5 Canvas Painter](08-html5-canvas)
 Interesting primer on how the HTML5 Canvas works and a good intro to the building blocks of Canvas and it's Context. Quick tutorial where you get to build "Paint" style features and a good jumping off point for building more complicated painting tools based HTML5 Canvas.
+
+Completion Time: ~30 Minutes
+
+#### 9. [Dev Tools Domination](09-dev-tools-domination)
+Some nice tips for using chrome dev tools better. Using `Break On` in Chrome to break any time an attribute or subtree is modified or a node is removed is super useful and I have probably glossed over that feature a thousand times without experimenting. The rest of this lesson is on different `console` functions. Most of these I knew about (`console.table()`, `console.warn()`, `console.time()`, `console.log()`, etc) but `console.group()` and `console.dir()` were both new to me and I can see them being useful.
