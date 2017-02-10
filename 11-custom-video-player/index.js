@@ -67,7 +67,7 @@ function togglePlay () {
   }
 };
 
-
+video.addEventListener("click", togglePlay);
 playButton.addEventListener("click", togglePlay);
 skipButtons.forEach(b => b.addEventListener("click", skip));
 
