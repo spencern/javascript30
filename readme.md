@@ -64,3 +64,8 @@ Completion Time: ~10 Minutes
 Really enjoyed this as it wasn't something I'd done before but has a really simple concept. The challenge is: given a list of checkboxes, checking one checkbox and then holding shift and selecting another checkbox should also select all checkboxes in between. I ended up using a depth first search to find all of the checkboxes between the checked and previously checked checkboxes and then checking them if shift was being held. The way Wes did it was definitely way simpler.
 
 Completion Time: ~ 30 Minutes
+
+#### 11. [Custom Video Player](11-custom-video-player)
+Good project to learn about the video side of [`HTMLMediaElement`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement). Pretty straightforward to implement all of the different controls. Used the `timeupdate` event to update the progress bar, nice to use non `click`/`key`/`change` events to run updates. I couldn't get the progress bar to update quite as smoothly as I'd have liked, but I think there's got to be a way to do that with css animations.
+
+Completion Time: ~45 Minutes
