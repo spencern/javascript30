@@ -69,3 +69,9 @@ Completion Time: ~ 30 Minutes
 Good project to learn about the video side of [`HTMLMediaElement`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement). Pretty straightforward to implement all of the different controls. Used the `timeupdate` event to update the progress bar, nice to use non `click`/`key`/`change` events to run updates. I couldn't get the progress bar to update quite as smoothly as I'd have liked, but I think there's got to be a way to do that with css animations.
 
 Completion Time: ~45 Minutes
+
+
+#### 12. [Key Sequence Detection](12-key-sequence-detection)
+Nice short thinking exercise. I hadn't implemented this before, but seems pretty straigtforward. I setup an array with the code and a position marker. Catch all keyboard entries, when the user enters the correct key for the next step of the code, move the marker, otherwise reset the marker to the first item. If after moving the marker, we are at the end of the code, reveal the secret.
+
+Completion Time: ~ 5 Minutes

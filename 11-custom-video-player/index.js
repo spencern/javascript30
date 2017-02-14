@@ -6,6 +6,7 @@ const volumeSlider = document.querySelector('input[name="volume"]');
 const progressDiv = document.querySelector('.player__controls .progress');
 const progressFilled = document.querySelector('.player__controls .progress .progress__filled');
 let scrubbing = false;
+
 function updateProgressBar () {
   const progress = (video.currentTime / video.duration) * 100;
   progressFilled.style.width = `${progress}%`;
