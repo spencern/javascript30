@@ -63,7 +63,7 @@ Completion Time: ~10 Minutes
 #### 10. [Hold Shift to Check Multiple Checkboxes](10-hold-shift-and-check-checkboxes)
 Really enjoyed this as it wasn't something I'd done before but has a really simple concept. The challenge is: given a list of checkboxes, checking one checkbox and then holding shift and selecting another checkbox should also select all checkboxes in between. I ended up using a depth first search to find all of the checkboxes between the checked and previously checked checkboxes and then checking them if shift was being held. The way Wes did it was definitely way simpler.
 
-Completion Time: ~ 30 Minutes
+Completion Time: ~30 Minutes
 
 #### 11. [Custom Video Player](11-custom-video-player)
 Good project to learn about the video side of [`HTMLMediaElement`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement). Pretty straightforward to implement all of the different controls. Used the `timeupdate` event to update the progress bar, nice to use non `click`/`key`/`change` events to run updates. I couldn't get the progress bar to update quite as smoothly as I'd have liked, but I think there's got to be a way to do that with css animations.
@@ -74,4 +74,9 @@ Completion Time: ~45 Minutes
 #### 12. [Key Sequence Detection](12-key-sequence-detection)
 Nice short thinking exercise. I hadn't implemented this before, but seems pretty straigtforward. I setup an array with the code and a position marker. Catch all keyboard entries, when the user enters the correct key for the next step of the code, move the marker, otherwise reset the marker to the first item. If after moving the marker, we are at the end of the code, reveal the secret.
 
-Completion Time: ~ 5 Minutes
+Completion Time: ~5 Minutes
+
+#### 13. [Slide in on Scroll](13-slide-in-on-scroll)
+This exercise comes with a good disclaimer that it's terrible UX practice to do something like this. That being said, there are some good concepts introduced in this lesson. Debouncing is a critical idea to understand for newer developers and this exercise is a good use case for that concept. Also introduces some ideas around measuring scroll height (`scrollY`) and determining where a user is on the page as well as where specific elements are located in relation to the current scroll height.
+
+Completion Time: ~15 Minutes
