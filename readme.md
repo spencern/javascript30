@@ -80,3 +80,8 @@ Completion Time: ~5 Minutes
 This exercise comes with a good disclaimer that it's terrible UX practice to do something like this. That being said, there are some good concepts introduced in this lesson. Debouncing is a critical idea to understand for newer developers and this exercise is a good use case for that concept. Also introduces some ideas around measuring scroll height (`scrollY`) and determining where a user is on the page as well as where specific elements are located in relation to the current scroll height.
 
 Completion Time: ~15 Minutes
+
+#### 14. [Objects and Arrays - Reference vs Copy](14-reference-vs-copying)
+More lecture than project, but introduces the concept variables _referencing_ arrays and objects instead of copying the values. Gives 5 different examples of ways to create a copy of an Array such as using the `...` operator. Doesn't get wrapped up in what is faster and most of the time that probably won't matter too much. Does a decent job of demonstrating potential problems with cloning objects, but doesn't really get into _why_ a deep clone doesn't work. My understanding is that nested objects don't get cloned because the nested object is actually a reference and not a value.
+
+Completion Time: ~15 Minutes
